@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #d9a7c7, #fffcdc);
+            color: #333;
+        }
+    header{
+        background-color: blueviolet;
+        text-align:center;
+        color:beige;
+        padding:10px;
+    }
+    nav{
+        display: flex;
+        /* text-align:center; */
+        justify-content: space-evenly;
+
+        background-color: #cb6c6c;  
+        color: white;
+        padding:8px;
+    }
+    section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #eaf4fc;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+    .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        input[type="submit"]{
+            background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; 
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; 
+    font-size: 16px; /* Adjust font size */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+</style>
+</head>
+<body>
+    <header>
+        Wayne Health Assistant<br>Your Trusted Partner in Health Management
+    </header>
+    <nav>
+        <a href="#doctors">Doctors</a>
+        <a href="#labs">Labs</a>
+        <a href="#devices">Devices</a>
+        <a href="#medicine">Medicine</a>
+        <a href="#profile">Profile</a>
+    </nav>
+    <div class="container">
+        <section id="doctors">
+            <h2>Doctors: The Oracle Connection</h2>
+            <p>Find the right doctor based on your specific needs:</p>
+            <ul>
+                <li>Search by symptoms, location, and price</li>
+                <li>Effortless booking for appointments </li>
+            </ul>
+            <img src="download.jpeg" alt="doctor" >
+            <input type="submit" value="Find Doctors">
+
+        </section>
+        <section id="labs">
+            <h2>Labs: The Detective's Toolkit</h2>
+            <p>Streamline your access to lab centers and test results:            </p>
+            <ul>
+                <li>Locate nearby labs efficiently</li>
+                <li>Manage your test reports in one place </li>
+            </ul>
+            <img src="download (1).jpeg" alt="lab">
+            <input type="submit" value="Find Labs">
+
+        </section>
+        <section id="devices">
+            <h2>Devices: Alfred’s Automation System</h2>
+            <p>Integrate and automate your health device management:          </p>
+            <ul>
+                <li>Track health devices seamlessly</li>
+                <li>Automate reminders for medications and checkups</li>
+            </ul>
+            <img src="device.avif" alt="device" width="300px">
+            <input type="submit" value="Manage Devices">
+
+        </section>
+        <section id="medicine">
+            <h2>Medicine: The BatSignal of Alerts</h2>
+            <p>Stay ahead with timely medication alerts:            </p>
+            <ul>
+                <li>Consolidate and organize prescriptions</li>
+                <li>Receive alerts for dosage schedules and risks</li>
+            </ul>
+            <img src="download (2).jpeg" alt="medicine">
+            <input type="submit" value="Manage Medicines">
+
+        </section>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <p>Manage your personal health details and settings:          </p>
+            <ul>
+                <li>Update contact information</li>
+                <li>View health history and appointments </li>
+            </ul>
+            <img src="download.png" alt="profile">
+            <input type="submit" value="Go To Profile">
+
+        </section>
+    </div>
+</body>
+</html>
